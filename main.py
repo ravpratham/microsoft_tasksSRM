@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-#market_df = pd.read_csv("global_sales_data/market_fact.csv")
+#Q1
 employee = pd.read_csv(r"C:\Users\ravpr\DownloadsEmployee_HR.csv")
 print(employee)
 print(employee["Department"])
