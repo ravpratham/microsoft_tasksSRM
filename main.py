@@ -19,6 +19,7 @@ print("Ans 2. Range", y.min(), y.max())
 
 #Q3
 employee.boxplot(by ='Department', column =['time_spent_company'],grid = False,figsize=(10,10))
+plt.show()
 
 #Q4
 df = employee.loc[:, employee.columns != 'Department']
